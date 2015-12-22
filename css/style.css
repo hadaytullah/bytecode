@@ -132,8 +132,8 @@ hr {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #f3ca27;
-	border-color: #f3ca27;
+	background-color: #5b777f ; /*#3298FE; #f3ca27;*/
+	border-color: #5b777f ; /*#3298FE; #f3ca27;*/
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -149,6 +149,7 @@ header {
 header p {
 	color: #d9e0e2;
 	font-size: 20px;
+    /*font-size: 2vw;*/
 	margin-bottom: 80px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -162,6 +163,7 @@ header p {
 }
 .intro-text H1 {
 	font-size: 70px;
+    /*font-size: 8vw;*/
 	text-transform: uppercase;
 	color: #d9e0e2;
 	letter-spacing: 2px;
