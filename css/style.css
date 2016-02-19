@@ -433,8 +433,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	color: #ffffff; /*#f3ca27;*/
 	padding-right: 5px;
 }
-/* Team Section */
-#team-section {
+/* Team/founder Section */
+#team-section, #founder-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
 	background: rgb(193,166,24); /* Old browsers */
@@ -443,10 +443,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
 }
-#team-section hr {
+#team-section hr, #founder-section hr{
 	background: #a9971c;
 }
-#team-section .item {
+#team-section .item, #founder-section .item {
 	padding: 0;
 	margin: 15px;
 	text-align: center;
@@ -457,20 +457,20 @@ img.img-circle.team-img {
 	border: 4px solid transparent;
 	transition: all 0.5s;
 }
-#team-section .thumbnail {
+#team-section .thumbnail, #founder-section .thumbnail {
 	background: transparent;
 	border: 0;
 }
-#team-section .thumbnail .caption {
+#team-section .thumbnail .caption, #founder-section .thumbnail .caption{
 	padding: 9px;
 	color: #1c424d;
 }
-#team-section i.fa {
+#team-section i.fa, #founder-section i.fa {
 	font-size: 16px;
 	color: #faeaab;
 	margin-top: 10px;
 }
-#team-section i.fa:hover {
+#team-section i.fa:hover, #founder-section i.fa:hover {
 	color: #1c424d;
 }
 .owl-theme .owl-controls .owl-page span {
@@ -493,6 +493,9 @@ img.img-circle.team-img {
 }
 .owl-theme .owl-controls .owl-page.active span {
 	background: #f1c40f;
+}
+#founder-section .founder-details{
+	text-align: left;
 }
 /* Testimonials Section */
 #testimonials-section {
