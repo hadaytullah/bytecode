@@ -434,7 +434,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	padding-right: 5px;
 }
 /* Team/founder Section */
-#team-section, #founder-section {
+#team-section, #founder-section, #career-section{
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
 	background: rgb(193,166,24); /* Old browsers */
@@ -443,7 +443,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
 }
-#team-section hr, #founder-section hr{
+#team-section hr, #founder-section, #career-section hr{
 	background: #a9971c;
 }
 #team-section .item, #founder-section .item {
