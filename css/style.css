@@ -25,7 +25,8 @@ h5 {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+	color: #adbec3;
+    	font-size: 16px;
 }
 a {
 	color: #5b777f;
