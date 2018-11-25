@@ -168,6 +168,9 @@ header p {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+header ul {
+  padding-left: 1px;
+}
 .intro-text {
   text-align: -webkit-center;
 	position: relative;
